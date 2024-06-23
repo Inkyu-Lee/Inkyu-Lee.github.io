@@ -1,0 +1,23 @@
+.container-sm {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    width: auto; 
+    height: auto; 
+}
+
+/* Home.css */
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f6eeec; /* Tomato color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .carousel-caption p {
+    font-size: 18px;
+    color: #f0e68c; /* Khaki color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+  }

@@ -1,0 +1,78 @@
+/* Footer.css */
+.footer-container {
+    background-color: #f8f9fa; /* 화이트 계열 배경색 */
+    color: #333; /* 어두운 텍스트 색상 */
+    padding: 3rem 0;
+    border-top: 1px solid #e7e7e7; /* 상단에 경계선 추가 */
+  }
+  
+  .footer-container h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333; /* 텍스트 색상 */
+  }
+  
+  .footer-container a {
+    color: #007bff; /* 링크 색상 */
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    color: #0056b3; /* 링크에 마우스를 올렸을 때의 색상 */
+  }
+  
+  .footer-container .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-container .list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-container address {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-container .list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .footer-container .list-inline-item {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .footer-container .list-inline-item:last-child {
+    margin-right: 0;
+  }
+
+  .github-icon {
+    width: 80px; /* 원하는 너비로 설정 */
+    height: auto; /* 가로 세로 비율을 유지하면서 자동으로 높이 조정 */
+  }
+  
+  /* Velog 아이콘 사이즈 조정 */
+  .velog-icon {
+    width: 80px; /* 원하는 너비로 설정 */
+    height: auto; /* 가로 세로 비율을 유지하면서 자동으로 높이 조정 */
+  }
+  
+  @media (max-width: 576px) {
+    .footer-container {
+      text-align: center;
+    }
+  
+    .footer-container .row > div {
+      margin-bottom: 1.5rem;
+    }
+  
+    .footer-container .list-inline {
+      text-align: center;
+    }
+  }
+  
+  
