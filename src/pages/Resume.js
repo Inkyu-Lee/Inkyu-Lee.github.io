@@ -45,8 +45,8 @@ const Resume = () => {
                 <Col xs={7} className="info-text">응용소프트웨어학과</Col>
               </Row>
               <Row className="info-row">
-                <Col xs={5} className="info-label">기간:</Col>
-                <Col xs={7} className="info-text">2024년 - 재학중</Col>
+                <Col xs={5} className="info-label">현 상황:</Col>
+                <Col xs={7} className="info-text">재학중</Col>
               </Row>
             </section>
 
