@@ -90,7 +90,7 @@ const Resume = () => {
           </Col>
           
 
-          <Col md={12}>
+          <Col md={14}>
             <section className="section">
               <h2 className="section-title">기술 스택</h2>
               <hr className="divider" />
@@ -101,6 +101,7 @@ const Resume = () => {
                 <Col xs={4} sm={2}><img src={`${process.env.PUBLIC_URL}/images/lan-stack4.png`} alt="React.js" className="img-fluid" /></Col>
                 <Col xs={4} sm={2}><img src={`${process.env.PUBLIC_URL}/images/lan-stack5.png`} alt="Java Spring" className="img-fluid" /></Col>
                 <Col xs={4} sm={2}><img src={`${process.env.PUBLIC_URL}/images/lan-stack6.png`} alt="Python" className="img-fluid" /></Col>
+                <Col xs={4} sm={2}><img src={`${process.env.PUBLIC_URL}/images/lan-stack7.png`} alt="Cplusplus" className="img-fluid" /></Col>
               </Row>
             </section>
           </Col>
