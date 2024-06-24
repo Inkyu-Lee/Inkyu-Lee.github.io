@@ -10,12 +10,22 @@ const Gallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const photosPerPage = 4;
+  
+  let phtosDecription = []
+  
+  phtosDecription.push("토리 바보같은 사진");
+  phtosDecription.push("토리 어렸을 때 사진");
+  phtosDecription.push("토리 귀여운 사진");
+  phtosDecription.push("토리4");
+  phtosDecription.push("토리5");
+  phtosDecription.push("토리6");
+  phtosDecription.push("토리7");
 
   const photos = Array.from({ length: 8 }).map((_, idx) => ({
     id: idx,
     src: `${process.env.PUBLIC_URL}/images/dog${idx}.jpeg`,
     title: `토리 사진 ${idx + 1}`,
-    description: ``,
+    description: phtosDecription[idx],
   }));
 
   const indexOfLastPhoto = currentPage * photosPerPage;
