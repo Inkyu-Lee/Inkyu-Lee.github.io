@@ -10,6 +10,7 @@ import Navbarelements from "./components/Navbarelements";
 import Footer from "./pages/Footer";
 import Gallery from "./pages/Gallery";
 import Testpage from "./pages/Testpage";
+import Project from "./pages/Project";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/Resume" element={<Resume/>} />
             <Route path="/Gallery" element={<Gallery />} />
             <Route path="/TestPage" element={<Testpage />} />
+            <Route path="/Project" element={<Project />} />
           </Routes>
         <Footer />
       </HashRouter>
