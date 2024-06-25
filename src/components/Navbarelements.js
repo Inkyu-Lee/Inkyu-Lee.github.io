@@ -20,7 +20,7 @@ const Navbarelements = () => {
                 Gallery
               </NavDropdown.Item>              
               <NavDropdown.Divider /> 
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#/Project">
                 My Project(미완성)
               </NavDropdown.Item>
             </NavDropdown>
